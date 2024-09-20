@@ -46,7 +46,6 @@ nav a:hover {
 /* hero */
 
 .hero {
-    background-image: url(https://www.appstudio.ca/blog/wp-content/uploads/2020/09/Modern-Software-Development.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -57,11 +56,11 @@ nav a:hover {
     text-align: center;
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
 }
 
 .hero h1 {
     font-size: 3em;
-    margin-bottom: 1em;
 }
 
 .hero p {
@@ -80,9 +79,21 @@ section {
     margin-top: 40px;
 }
 
+section :hover {
+    transform: perspective(800px) rotateX(1deg);
+    transition: transform 0.3s ease-out;
+}
+
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    background-color: #7cf8f8;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    ;
 }
 
 .content-row {
@@ -97,9 +108,12 @@ h2 {
 }
 
 .content-col img {
-    max-width: 100%;
     height: auto;
     border-radius: 10px;
+    -webkit-box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    ;
 }
 
 .content-col p {
