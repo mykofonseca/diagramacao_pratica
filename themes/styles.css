@@ -1,0 +1,117 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* navbar */
+
+nav {
+    background-color: #f8f8f8;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 5px 3px 3px black;
+    font-size: small;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+nav a:hover {
+    background-color: #7cf8f8;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    -webkit-box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.82);
+    -moz-box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.82);
+    box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.82);
+    ;}
+
+/* hero */
+
+.hero {
+    background-image: url(https://www.appstudio.ca/blog/wp-content/uploads/2020/09/Modern-Software-Development.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* sections */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-col {
+    width: 50%;
+    padding: 20px;
+}
+
+.content-col img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-col p {
+    text-align: justify;
+}
+
+.card {
+    background-color: #baf8f8;
+    padding: 25px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    box-shadow: 10px 16px 21px -10px rgba(0,0,0,0.62);
+    ;
+}
